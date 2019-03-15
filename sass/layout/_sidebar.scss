@@ -1,0 +1,12 @@
+.sidebar {
+    background-color: $sidebar-background;
+    height: 100%;
+    width: 188px;
+    
+    .logo-container {
+        align-items: center;
+        flex-wrap: nowrap;
+        background-color: $sidebar-background;
+    }
+    
+}

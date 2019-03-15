@@ -1,8 +1,10 @@
 @import "utils/variables";
 @import "utils/mixins";
+@import "base/typography";
+@import "layout/grid";
 @import "base/normalize";
 @import "layout/sidebar";
 @import "components/hamburger";
 @import "components/logo";
 @import "components/navigation";
-@import "components/yourManage";
+@import "components/yourManager";

@@ -41,6 +41,7 @@ li {
 }
 
 .flex-container {
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -394,8 +395,10 @@ template {
 }
 
 .sidebar .logo-container {
-  align-items: center;
-  flex-wrap: nowrap;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
   background-color: #191919;
 }
 
@@ -419,5 +422,4 @@ template {
 .logo .logo-img {
   fill: #191919;
 }
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.prefixed.css.map */
