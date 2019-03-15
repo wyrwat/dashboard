@@ -1,0 +1,133 @@
+.menu {
+    //flex-direction: column;
+    .vertical-line {
+      // Style for "line"
+width: 188px;
+height: 1px;
+background-color: $pharagraph-color;  
+    }
+
+    .menu-item {
+      
+        &:hover {
+            background-color: $sidebar-hover;  
+
+        
+        }
+
+        .general {
+            svg {
+             width: 16px;
+             height: 15px;  
+             margin: {
+                 left: 18px;
+                 right: 13px;
+             }
+             
+            }
+         }
+ 
+         .details {
+             svg {
+                 width: 14px;
+                 height: 13px;  
+                 margin: {
+                    left: 19px;
+                    right: 14px;
+                }
+                }
+         }
+
+        .links {
+            svg {
+                width: 16px;
+                height: 8px;  
+                margin: {
+                    left: 19px;
+                    right: 12px;
+                }
+               }
+        }
+
+        .banners {
+            svg {
+                width: 14px;
+                height: 13px;  
+                margin: {
+                    left: 20px;
+                    right: 13px;
+                }
+               }
+        }
+
+        .payout {
+            svg {
+                width: 13px;
+                height: 13px;  
+                margin: {
+                    left: 20px;
+                    right: 14px;
+                }
+               }
+        }
+
+        .personal-data {
+            svg {
+                width: 8px;
+                height: 13px; 
+                margin: {
+                    left: 22px;
+                    right: 16px;
+                } 
+               }
+        }
+
+        .postback {
+            svg {
+                width: 13px;
+                height: 14px;  
+                margin: {
+                    left: 20px;
+                    right: 14px;
+                }
+               }
+        }
+
+        .sidebar-link {
+            line-height: 42px;
+            height: 40px;
+            flex-wrap: nowrap;
+            align-items: center;
+            &:before {
+                content: " ";
+                width: 4px;
+                height: 40px;
+                background-color: $sidebar-background;
+                margin-right: -4px;
+                
+            }
+            svg {
+                fill: $icon-color;
+            }
+            
+            .menu-link {
+               color: $icon-color;
+               font-size: $second-font-size;
+               
+           
+            }
+        }
+    }
+
+    .menu-item:hover svg,
+    .menu-item:hover .menu-link {
+        fill: white;
+        color: white;
+       
+    }
+
+    .menu-item:hover .sidebar-link:before {
+        background-color: #f58220; 
+    }
+
+}

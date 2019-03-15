@@ -6,6 +6,7 @@ h2 {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
+  line-height: 42px;
   text-transform: uppercase;
 }
 
@@ -389,6 +390,8 @@ template {
 }
 
 .sidebar {
+  -ms-flex-direction: column;
+      flex-direction: column;
   background-color: #191919;
   height: 100%;
   width: 188px;
@@ -399,7 +402,6 @@ template {
       align-items: center;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  background-color: #191919;
 }
 
 .nav-icon {
@@ -421,5 +423,108 @@ template {
 
 .logo .logo-img {
   fill: #191919;
+}
+
+.menu .vertical-line {
+  width: 188px;
+  height: 1px;
+  background-color: #333333;
+}
+
+.menu .menu-item:hover {
+  background-color: #282828;
+}
+
+.menu .menu-item .general svg {
+  width: 16px;
+  height: 15px;
+  margin-left: 18px;
+  margin-right: 13px;
+}
+
+.menu .menu-item .details svg {
+  width: 14px;
+  height: 13px;
+  margin-left: 19px;
+  margin-right: 14px;
+}
+
+.menu .menu-item .links svg {
+  width: 16px;
+  height: 8px;
+  margin-left: 19px;
+  margin-right: 12px;
+}
+
+.menu .menu-item .banners svg {
+  width: 14px;
+  height: 13px;
+  margin-left: 20px;
+  margin-right: 13px;
+}
+
+.menu .menu-item .payout svg {
+  width: 13px;
+  height: 13px;
+  margin-left: 20px;
+  margin-right: 14px;
+}
+
+.menu .menu-item .personal-data svg {
+  width: 8px;
+  height: 13px;
+  margin-left: 22px;
+  margin-right: 16px;
+}
+
+.menu .menu-item .postback svg {
+  width: 13px;
+  height: 14px;
+  margin-left: 20px;
+  margin-right: 14px;
+}
+
+.menu .menu-item .sidebar-link {
+  line-height: 42px;
+  height: 40px;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.menu .menu-item .sidebar-link:before {
+  content: " ";
+  width: 4px;
+  height: 40px;
+  background-color: #191919;
+  margin-right: -4px;
+}
+
+.menu .menu-item .sidebar-link svg {
+  fill: #818181;
+}
+
+.menu .menu-item .sidebar-link .menu-link {
+  color: #818181;
+  font-size: 14px;
+}
+
+.menu .menu-item:hover svg,
+.menu .menu-item:hover .menu-link {
+  fill: white;
+  color: white;
+}
+
+.menu .menu-item:hover .sidebar-link:before {
+  background-color: #f58220;
+}
+
+.your-manager {
+  margin-left: 20px;
+}
+
+.your-manager h3 {
+  letter-spacing: -0.28px;
 }
 /*# sourceMappingURL=style.prefixed.css.map */
