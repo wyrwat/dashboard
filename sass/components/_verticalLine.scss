@@ -2,4 +2,11 @@
     width: 2px;
     height: 61px;
     background-color: $borders;
+
+    &--date-period {
+        width: 1px;
+        height: 29px;
+        background-color: $borders;
+        margin-left: 64px;
+    }
 }
