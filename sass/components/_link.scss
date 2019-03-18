@@ -2,8 +2,10 @@
     color: $links;
     font-weight: 300;
     &:hover {
-        color: #ffa220;  
-    }
+        @media(hover:hover) {
+            color: #ffa220;    
+        }
+    } 
 }
 
 .link-topbar {
