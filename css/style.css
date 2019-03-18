@@ -35,6 +35,7 @@ a {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
   font-weight: 300;
+  cursor: pointer;
 }
 
 li {
@@ -389,6 +390,7 @@ template {
 }
 
 .sidebar {
+  position: fixed;
   flex-direction: column;
   background-color: #191919;
   height: 100%;
@@ -520,6 +522,30 @@ template {
 
 .your-manager h3 {
   letter-spacing: -0.28px;
+}
+
+.your-manager .photo-container {
+  align-items: center;
+  margin-top: -12px;
+}
+
+.your-manager .photo-container .online-photo {
+  align-self: flex-start;
+  margin-left: -10px;
+}
+
+.your-manager .photo-container .manager-link {
+  margin-left: 10px;
+  color: #56819f;
+  font-size: 14px;
+}
+
+.your-manager .photo-container .manager-link:hover {
+  color: #ffa220;
+}
+
+.photo {
+  border-radius: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */

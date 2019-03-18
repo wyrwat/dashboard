@@ -1,18 +1,15 @@
 .menu {
-    //flex-direction: column;
-    .vertical-line {
-      // Style for "line"
-width: 188px;
-height: 1px;
-background-color: $pharagraph-color;  
+    
+    .vertical-line {    
+        width: 188px;
+        height: 1px;
+        background-color: $pharagraph-color;  
     }
 
     .menu-item {
       
         &:hover {
             background-color: $sidebar-hover;  
-
-        
         }
 
         .general {
@@ -22,10 +19,9 @@ background-color: $pharagraph-color;
              margin: {
                  left: 18px;
                  right: 13px;
-             }
-             
+                }
             }
-         }
+        }
  
          .details {
              svg {
@@ -35,8 +31,8 @@ background-color: $pharagraph-color;
                     left: 19px;
                     right: 14px;
                 }
-                }
-         }
+            }
+        }
 
         .links {
             svg {
@@ -46,7 +42,7 @@ background-color: $pharagraph-color;
                     left: 19px;
                     right: 12px;
                 }
-               }
+            }
         }
 
         .banners {
@@ -57,7 +53,7 @@ background-color: $pharagraph-color;
                     left: 20px;
                     right: 13px;
                 }
-               }
+            }
         }
 
         .payout {
@@ -68,7 +64,7 @@ background-color: $pharagraph-color;
                     left: 20px;
                     right: 14px;
                 }
-               }
+            }
         }
 
         .personal-data {
@@ -79,7 +75,7 @@ background-color: $pharagraph-color;
                     left: 22px;
                     right: 16px;
                 } 
-               }
+            }
         }
 
         .postback {
@@ -90,7 +86,7 @@ background-color: $pharagraph-color;
                     left: 20px;
                     right: 14px;
                 }
-               }
+            }
         }
 
         .sidebar-link {
@@ -103,9 +99,9 @@ background-color: $pharagraph-color;
                 width: 4px;
                 height: 40px;
                 background-color: $sidebar-background;
-                margin-right: -4px;
-                
+                margin-right: -4px;  
             }
+
             svg {
                 fill: $icon-color;
             }
@@ -113,8 +109,6 @@ background-color: $pharagraph-color;
             .menu-link {
                color: $icon-color;
                font-size: $second-font-size;
-               
-           
             }
         }
     }
@@ -123,11 +117,9 @@ background-color: $pharagraph-color;
     .menu-item:hover .menu-link {
         fill: white;
         color: white;
-       
     }
 
     .menu-item:hover .sidebar-link:before {
         background-color: #f58220; 
     }
-
 }

@@ -4,4 +4,22 @@
     h3 {
         letter-spacing: -0.28px;
     }
+    .photo-container {
+        align-items: center;
+        margin-top: -12px;
+        .online-photo {
+           align-self: flex-start;
+           margin-left: -10px;
+        }
+
+        .manager-link {
+            margin-left: 10px;
+            color: $links;
+            font-size: $second-font-size;
+
+            &:hover {
+                color: #ffa220;  
+            }
+        }
+    }
 }
