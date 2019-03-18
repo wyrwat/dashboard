@@ -534,18 +534,113 @@ template {
   margin-left: -10px;
 }
 
-.your-manager .photo-container .manager-link {
-  margin-left: 10px;
-  color: #56819f;
-  font-size: 14px;
+.photo {
+  border-radius: 50%;
 }
 
-.your-manager .photo-container .manager-link:hover {
+.topbar .topbar-container {
+  justify-content: flex-end;
+  border-bottom: solid 2px #e3e3e3;
+}
+
+.wallet-container {
+  align-items: baseline;
+  margin-top: -3px;
+}
+
+.wallet-container .wallet {
+  width: 17px;
+  height: 18px;
+  fill: #9c9c9c;
+  margin-left: 18px;
+  margin-right: 16px;
+}
+
+.wallet-container .arrow-down {
+  width: 11px;
+  height: 7px;
+  fill: #9c9c9c;
+  margin-right: 16px;
+}
+
+.wallet-container .money {
+  font-size: 20px;
+  color: #9c9c9c;
+  margin-right: 20px;
+}
+
+.notification-container {
+  align-items: center;
+  margin-top: -3px;
+}
+
+.notification-container .notification {
+  width: 16px;
+  height: 17px;
+  fill: #9c9c9c;
+  margin-left: 21px;
+}
+
+.notification-container .indicator {
+  margin-top: -12px;
+  margin-left: -8px;
+  margin-right: 19px;
+}
+
+.profile-container {
+  align-items: center;
+  margin-top: -3px;
+}
+
+.profile-container .profile {
+  width: 17px;
+  height: 17px;
+  fill: #9c9c9c;
+  margin-left: 19px;
+  margin-right: 14px;
+}
+
+.profile-container .profile-name {
+  margin-right: 18px;
+}
+
+.exit-container {
+  align-items: center;
+  margin-top: -3px;
+}
+
+.exit-container .exit {
+  width: 19px;
+  height: 15px;
+  fill: #9c9c9c;
+  margin-left: 21px;
+  margin-right: 17px;
+}
+
+.vertical-line {
+  width: 2px;
+  height: 61px;
+  background-color: #e3e3e3;
+}
+
+.link {
+  color: #56819f;
+  font-weight: 300;
+}
+
+.link:hover {
   color: #ffa220;
 }
 
-.photo {
-  border-radius: 50%;
+.link-topbar {
+  color: #56819f;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.manager-link {
+  margin-left: 10px;
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=style.css.map */
