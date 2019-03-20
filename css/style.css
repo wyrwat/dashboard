@@ -704,18 +704,24 @@ template {
 }
 
 .date-period {
+  align-items: center;
+  border-bottom: solid 2px #e3e3e3;
+}
+
+.date-period .date-border {
   border: solid 1px #e3e3e3;
   border-radius: 3px;
   justify-content: center;
   align-items: center;
   height: 42px;
+  flex-wrap: nowrap;
   margin-top: 33px;
-  margin-right: 382px;
+  margin-right: 13px;
   margin-bottom: 35px;
   margin-left: 325px;
 }
 
-.date-period .calendar {
+.date-period .date-border .calendar {
   width: 13px;
   height: 13px;
   fill: #9c9c9c;
@@ -723,12 +729,32 @@ template {
   margin-right: 17px;
 }
 
-.date-period .date-start {
+.date-period .date-border .date-start {
   margin-left: 17px;
 }
 
-.date-period .date-end {
+.date-period .date-border .date-end {
   margin-left: 16px;
+}
+
+.btn {
+  background-color: #f58220;
+  border-radius: 3px;
+  border: none;
+}
+
+.btn-date {
+  width: 41px;
+  height: 41px;
+  margin-top: -3px;
+  justify-content: center;
+  align-content: center;
+}
+
+.btn-date svg {
+  width: 15px;
+  height: 15px;
+  fill: #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */

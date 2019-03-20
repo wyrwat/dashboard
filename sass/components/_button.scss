@@ -1,0 +1,18 @@
+.btn {
+    background-color: $elemnt-background;
+    border-radius: 3px;
+    border: none;
+}
+
+.btn-date {
+    width: 41px;
+    height: 41px;
+    margin-top: -3px;
+    justify-content: center;
+    align-content: center;    
+        svg {
+            width: 15px;
+            height: 15px;
+            fill: $main-background;
+        }
+}
