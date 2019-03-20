@@ -1,0 +1,47 @@
+.table-container {
+    flex-wrap: nowrap;
+    //justify-content: center;
+    .column-1 {
+        flex-direction: column;
+        margin: {
+            left: 184px;
+            right: 67px;
+        }
+        .row {
+            align-items: center;
+            border-bottom: solid 2px $borders;
+            justify-content: space-between;
+            
+            
+            p {
+                margin-left: 189px;
+                margin-bottom: -8px;
+            }
+
+            h4 {
+                margin-bottom: -8px;
+            }
+        }
+    }
+
+    .column-2 {
+        flex-direction: column;
+        
+
+        .row {
+            align-items:center;
+            justify-content: space-between;
+            border-bottom: solid 2px $borders;
+            
+            p {
+                margin-left: 199px;
+                margin-bottom: -8px;
+            }
+
+            h4 {
+                margin-bottom: -8px;
+            }
+        }
+
+    }
+}

@@ -737,6 +737,50 @@ template {
   margin-left: 16px;
 }
 
+.table-container {
+  flex-wrap: nowrap;
+}
+
+.table-container .column-1 {
+  flex-direction: column;
+  margin-left: 184px;
+  margin-right: 67px;
+}
+
+.table-container .column-1 .row {
+  align-items: center;
+  border-bottom: solid 2px #e3e3e3;
+  justify-content: space-between;
+}
+
+.table-container .column-1 .row p {
+  margin-left: 189px;
+  margin-bottom: -8px;
+}
+
+.table-container .column-1 .row h4 {
+  margin-bottom: -8px;
+}
+
+.table-container .column-2 {
+  flex-direction: column;
+}
+
+.table-container .column-2 .row {
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid 2px #e3e3e3;
+}
+
+.table-container .column-2 .row p {
+  margin-left: 199px;
+  margin-bottom: -8px;
+}
+
+.table-container .column-2 .row h4 {
+  margin-bottom: -8px;
+}
+
 .btn {
   background-color: #f58220;
   border-radius: 3px;
