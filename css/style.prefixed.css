@@ -60,14 +60,16 @@ li {
 
 body {
   background-color: #f2f2ef;
-  max-width: 1280px;
-  width: 100%;
   margin: 0 auto;
 }
 
+body .page-content {
+  overflow-y: auto;
+  -ms-flex: 1 1 auto;
+      flex: 1 1 auto;
+}
+
 .container {
-  max-width: 1280px;
-  width: 100%;
   margin: 0 auto;
   padding: 0;
 }
@@ -576,6 +578,8 @@ template {
 
 .topbar {
   background-color: #ffffff;
+  -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
 }
 
 .topbar .topbar-container {
@@ -720,6 +724,8 @@ template {
   -ms-flex-align: center;
       align-items: center;
   border-bottom: solid 2px #e3e3e3;
+  -ms-flex-pack: center;
+      justify-content: center;
 }
 
 .date-period .date-border {
@@ -735,7 +741,6 @@ template {
   margin-top: 33px;
   margin-right: 13px;
   margin-bottom: 35px;
-  margin-left: 325px;
 }
 
 .date-period .date-border .calendar {
@@ -755,15 +760,15 @@ template {
 }
 
 .table-container {
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: space-evenly;
+      justify-content: space-evenly;
 }
 
 .table-container .column-1 {
   -ms-flex-direction: column;
       flex-direction: column;
-  margin-left: 184px;
-  margin-right: 67px;
 }
 
 .table-container .column-1 .row {
@@ -772,14 +777,15 @@ template {
   border-bottom: solid 2px #e3e3e3;
   -ms-flex-pack: justify;
       justify-content: space-between;
+  max-width: 100%;
+  width: 310px;
 }
 
-.table-container .column-1 .row p {
-  margin-left: 189px;
+.table-container .column-1 .row .table-pharagraph p {
   margin-bottom: -8px;
 }
 
-.table-container .column-1 .row h4 {
+.table-container .column-1 .row .header h4 {
   margin-bottom: -8px;
 }
 
@@ -794,15 +800,43 @@ template {
   -ms-flex-pack: justify;
       justify-content: space-between;
   border-bottom: solid 2px #e3e3e3;
+  max-width: 100%;
+  width: 310px;
 }
 
 .table-container .column-2 .row p {
-  margin-left: 199px;
   margin-bottom: -8px;
 }
 
 .table-container .column-2 .row h4 {
   margin-bottom: -8px;
+}
+
+.chart {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+.chart h4 {
+  margin-left: 185px;
+  margin-top: 62px;
+}
+
+.chart .graph {
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.chart .graph img {
+  margin-top: 11px;
+  margin-bottom: 55px;
+  width: 100%;
+  max-width: 655px;
+  max-height: 345px;
 }
 
 .btn {

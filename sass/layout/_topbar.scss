@@ -1,11 +1,9 @@
 .topbar {
-   //position: fixed;
    background-color: $main-background;
-
+   flex: 0 0 auto;
     .topbar-container {
         justify-content: flex-end;
         border-bottom: solid 2px $borders;
-        //margin-left: 799px;
         width: 100%;
     }
 }

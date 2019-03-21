@@ -1,25 +1,31 @@
 .table-container {
-    flex-wrap: nowrap;
-    //justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     .column-1 {
         flex-direction: column;
         margin: {
-            left: 184px;
-            right: 67px;
+            //left: 184px;
+            //right: 67px;
         }
         .row {
             align-items: center;
             border-bottom: solid 2px $borders;
             justify-content: space-between;
-            
-            
-            p {
-                margin-left: 189px;
-                margin-bottom: -8px;
+            max-width: 100%;
+            width: 310px;
+
+            .table-pharagraph {
+                
+                p { 
+                    margin-bottom: -8px;
+                }
             }
 
-            h4 {
-                margin-bottom: -8px;
+            .header {
+
+                h4{
+                    margin-bottom: -8px;
+                }
             }
         }
     }
@@ -32,9 +38,10 @@
             align-items:center;
             justify-content: space-between;
             border-bottom: solid 2px $borders;
-            
+            max-width: 100%;
+            width: 310px;
             p {
-                margin-left: 199px;
+                //margin-left: 199px;
                 margin-bottom: -8px;
             }
 

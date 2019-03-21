@@ -8,14 +8,18 @@
   
 body {
     background-color: #f2f2ef;
-    max-width: 1280px;
-    width: 100%;
+    //overflow: hidden;
     margin: 0 auto;
+
+    .page-content {
+        overflow-y: auto;
+        flex: 1 1 auto;
+    }
 }  
 
 .container {
-    max-width: 1280px;
-    width: 100%;
+    //max-width: 1280px;
+    //width: 100%;
     margin: 0 auto;
     padding: 0;
 }
