@@ -1,0 +1,24 @@
+.chart {
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: column;
+    h4 {
+        margin: {
+            left: 185px;
+            top: 62px;
+        }
+    }
+    .graph {
+        justify-content: center;
+
+        img {
+            margin: {
+                top: 11px;
+                bottom: 55px;
+            }
+            width: 100%;
+            max-width: 655px;
+            max-height: 345px;
+        }
+    }
+}

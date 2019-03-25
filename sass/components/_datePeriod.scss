@@ -1,0 +1,39 @@
+.date-period {
+    align-items: center;
+    border-bottom: solid 2px $borders;
+    justify-content: center;
+    .date-border {
+        border: solid 1px $borders;
+        border-radius: 3px;
+        justify-content: center;
+        align-items: center;
+        height: 42px;
+        flex-wrap: nowrap;
+        margin: {
+            top: 33px; 
+            right: 13px; 
+            bottom: 35px;
+            
+        }
+        
+        .calendar {
+            width: 13px;
+            height: 13px;
+            fill: $menu-pharagraph;
+            margin-left: 63px;
+            margin-right: 17px;
+        }
+    
+        .date-start {
+            margin: {
+                left: 17px;
+            }
+        }
+    
+        .date-end {
+            margin-left: 16px;
+        }
+    }
+    
+
+}
