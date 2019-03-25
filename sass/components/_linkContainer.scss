@@ -1,0 +1,7 @@
+.links-container {
+    flex-direction: column;
+    .link-row {
+        //flex-wrap: nowrap;
+        align-items: center;
+    }
+}

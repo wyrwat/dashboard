@@ -687,7 +687,7 @@ template {
   font-size: 14px;
 }
 
-.general-statistics .general-statistics-container {
+.section-container {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
   margin-top: 17px;
@@ -695,11 +695,11 @@ template {
   margin-left: 206px;
 }
 
-.general-statistics-header {
+.section-header {
   border-bottom: solid 2px #e3e3e3;
 }
 
-.general-statistics-header h2 {
+.section-header h2 {
   margin-left: 17px;
   margin-bottom: 3px;
   padding-top: 5px;
@@ -811,20 +811,45 @@ template {
   background-color: #f58220;
   border-radius: 3px;
   border: none;
+  justify-content: center;
+  align-content: center;
 }
 
 .btn-date {
   width: 41px;
   height: 41px;
   margin-top: -3px;
-  justify-content: center;
-  align-content: center;
 }
 
 .btn-date svg {
   width: 15px;
   height: 15px;
   fill: #ffffff;
+}
+
+.btn-add {
+  width: 127px;
+  height: 40px;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.links .button-container {
+  justify-content: center;
+}
+
+.links .button-container .btn-add-1 {
+  margin-top: 23px;
+}
+
+.links-container {
+  flex-direction: column;
+}
+
+.links-container .link-row {
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
