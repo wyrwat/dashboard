@@ -1,11 +1,19 @@
-.links {
 
     .button-container {
         justify-content: center;
 
         .btn-add-1 {
-            margin-top: 23px;
+            margin: {
+                top: 23px;
+                bottom: 23px;
+            } 
+        }
+
+        .btn-add-2 {
+            margin : {
+                top: 23px;
+                bottom: 26px;
+            }
         }
     }
    
-}
