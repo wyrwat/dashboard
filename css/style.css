@@ -431,6 +431,18 @@ template {
   flex-wrap: nowrap;
 }
 
+@media (max-width: 425px) {
+  .sidebar {
+    width: 55px;
+  }
+  .menu-disabled {
+    display: none;
+  }
+  .vertical-line {
+    width: 55px;
+  }
+}
+
 .nav-icon {
   padding-right: 4px;
 }
@@ -439,6 +451,13 @@ template {
   color: #818181;
   cursor: pointer;
   font-size: 21px;
+}
+
+@media (max-width: 425px) {
+  .fa-bars {
+    margin-left: 17px;
+    margin-top: 21px;
+  }
 }
 
 .logo {
@@ -452,7 +471,7 @@ template {
   fill: #191919;
 }
 
-.menu .vertical-line {
+.menu .horizontal-line {
   width: 188px;
   height: 1px;
   background-color: #333333;
@@ -545,6 +564,14 @@ template {
   background-color: #f58220;
 }
 
+@media (max-width: 425px) {
+  .menu .horizontal-line {
+    width: 55px;
+    height: 1px;
+    background-color: #333333;
+  }
+}
+
 .your-manager {
   margin-left: 20px;
 }
@@ -561,6 +588,20 @@ template {
 .your-manager .photo-container .online-photo {
   align-self: flex-start;
   margin-left: -10px;
+}
+
+@media (max-width: 425px) {
+  .your-manager-photo {
+    width: 26px;
+    height: 26px;
+    margin-top: 25px;
+    margin-left: -7px;
+  }
+  .online-photo {
+    width: 10px;
+    height: 9px;
+    margin-top: 25px;
+  }
 }
 
 .photo {

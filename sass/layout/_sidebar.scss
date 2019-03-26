@@ -10,3 +10,16 @@
     }
     
 }
+
+@media (max-width:425px) {
+    .sidebar {
+        width: 55px;
+    }
+    .menu-disabled {
+        display: none;
+    }
+
+    .vertical-line {
+        width: 55px;
+    }
+}

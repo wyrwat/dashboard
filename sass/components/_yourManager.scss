@@ -7,10 +7,28 @@
     .photo-container {
         align-items: center;
         margin-top: -12px;
+
         .online-photo {
            align-self: flex-start;
            margin-left: -10px;
         }
 
+    }
+}
+
+
+@media (max-width:425px) {
+    .your-manager-photo {
+        width: 26px;
+        height: 26px;
+        margin-top: 25px;
+        margin-left: -7px;
+
+    }
+
+    .online-photo {
+        width: 10px;
+        height: 9px;
+        margin-top: 25px;
     }
 }

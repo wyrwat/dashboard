@@ -1,6 +1,6 @@
 .menu {
     
-    .vertical-line {    
+    .horizontal-line {    
         width: 188px;
         height: 1px;
         background-color: $pharagraph-color;  
@@ -123,3 +123,17 @@
         background-color: #f58220; 
     }
 }
+
+@media (max-width:425px) {
+    .menu {
+
+        .horizontal-line {    
+            width: 55px;
+            height: 1px;
+            background-color: $pharagraph-color;  
+        }  
+    }
+  
+       
+    }
+
