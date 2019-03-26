@@ -35,6 +35,19 @@
             margin-left: 16px;
         }
     }
-    
+}
+
+@media (max-width:764px) {
+    .date-border {
+        margin: {
+           left: 17px;
+        } 
+
+        .date-end {
+            margin-right: -46px;
+        }
+    }
+
+   
 
 }
