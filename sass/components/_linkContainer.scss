@@ -5,41 +5,96 @@
     align-content: center;
 
     .link-row {
-        border: {
-            top: solid 1px $borders;
-        }
+        border-top: solid 1px $borders;
         align-items: center;
-        width: 668px;
-        
+        //width: 668px;
         height: 59px;
         justify-content: space-between;
 
         h4 {
             margin-left: 17px;
-           
+
         }
 
-        a {
+        .align-left {
             color: $links;
         }
-        
+
         .link-icons {
             //display: none;
             align-items: center;
-
             .trash {
-                width: $second-font-size;
+                width: 14px;
                 height: 15px;
                 fill: $menu-pharagraph; 
+                display: none;
+                margin-right: 25px;
             }
 
             .link { 
-                width: $main-font-size;
+                display: none;
+                width: 16px;
                 height: 8px;
                 fill: $elemnt-background;
-                margin-right: 23px;
+                margin: {
+                    right: 23px;
+                    left: -78px; 
+                }
             }
         }
+
+        .home {
+            margin: {
+                left: 218px;
+                right: 180px;
+            }
+        }
+
+        .currently {
+            margin: {
+                left: 185px;
+                right: 180px;
+            }
+        }
+
+        .yoursite {
+            margin: {
+                left: 220px;
+                right: 180px;
+            }
+        }
+
+        .google,
+        .dashboard,
+        .blurax,
+        .blurpix {
+            margin: {
+                left: 225px;
+                right: 180px;
+            }
+        }
+
+        .facebook {
+            margin: {
+                left: 224px;
+                right: 180px;
+            }
+        }
+
+        .piece {
+            margin: {
+                left: 215px;
+                right: 180px;
+            }
+        }
+
+        .twitter {
+            margin: {
+                left: 220px;
+                right: 180px;
+            }
+        }
+       
     }
 
     .link-row-twitter {
@@ -49,5 +104,10 @@
     .link-row:hover {
         background-color: $links-hover;
         opacity: .99;
+    }
+
+    .link-row:hover .trash,
+    .link-row:hover .link {
+        display: block;
     }
 }
