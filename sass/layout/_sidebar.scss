@@ -1,9 +1,11 @@
 .sidebar {
+    z-index: 1;
     position: fixed;
     flex-direction: column;
     background-color: $sidebar-background;
     height: 100%;
     width: 188px;
+    top: 0;
     .logo-container {
         align-items: center;
         flex-wrap: nowrap;

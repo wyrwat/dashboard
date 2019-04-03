@@ -1,23 +1,27 @@
 .links-container {
     flex-direction: column;
     justify-content: center;
-    flex-flow: column wrap;
+    //flex-flow: column wrap;
     align-content: center;
+    //display: inline-flex;
 
     .link-row {
         border-top: solid 1px $borders;
         align-items: center;
-        //width: 668px;
         height: 59px;
-        justify-content: space-between;
+        justify-content: space-around;
 
         h4 {
             margin-left: 17px;
+            max-width: 317px;
+            width: 30%;
 
         }
 
         .align-left {
             color: $links;
+            max-width: 369px;
+            width: 70%;
         }
 
         .link-icons {
@@ -40,58 +44,6 @@
                     right: 23px;
                     left: -78px; 
                 }
-            }
-        }
-
-        .home {
-            margin: {
-                left: 218px;
-                right: 180px;
-            }
-        }
-
-        .currently {
-            margin: {
-                left: 185px;
-                right: 180px;
-            }
-        }
-
-        .yoursite {
-            margin: {
-                left: 220px;
-                right: 180px;
-            }
-        }
-
-        .google,
-        .dashboard,
-        .blurax,
-        .blurpix {
-            margin: {
-                left: 225px;
-                right: 180px;
-            }
-        }
-
-        .facebook {
-            margin: {
-                left: 224px;
-                right: 180px;
-            }
-        }
-
-        .piece {
-            margin: {
-                left: 215px;
-                right: 180px;
-            }
-        }
-
-        .twitter {
-            margin: {
-                left: 220px;
-                right: 180px;
             }
         }
        

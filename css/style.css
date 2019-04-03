@@ -8,6 +8,7 @@ h2 {
   font-weight: 500;
   line-height: 42px;
   text-transform: uppercase;
+  margin-top: 0;
 }
 
 h3 {
@@ -419,11 +420,13 @@ template {
 }
 
 .sidebar {
+  z-index: 1;
   position: fixed;
   flex-direction: column;
   background-color: #191919;
   height: 100%;
   width: 188px;
+  top: 0;
 }
 
 .sidebar .logo-container {
@@ -610,13 +613,15 @@ template {
 
 .topbar {
   background-color: #ffffff;
-  flex: 0 0 auto;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 .topbar .topbar-container {
   justify-content: flex-end;
   border-bottom: solid 2px #e3e3e3;
-  width: 100%;
+  max-width: 100%;
 }
 
 .wallet-container {
@@ -734,6 +739,10 @@ template {
   font-size: 14px;
 }
 
+.general-statistics {
+  margin-top: 70px;
+}
+
 .section-container {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
@@ -745,6 +754,7 @@ template {
 @media (max-width: 764px) {
   .section-container {
     margin-left: 72px;
+    width: 100%;
   }
 }
 
@@ -915,7 +925,6 @@ template {
 .links-container {
   flex-direction: column;
   justify-content: center;
-  flex-flow: column wrap;
   align-content: center;
 }
 
@@ -923,15 +932,19 @@ template {
   border-top: solid 1px #e3e3e3;
   align-items: center;
   height: 59px;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .links-container .link-row h4 {
   margin-left: 17px;
+  max-width: 317px;
+  width: 30%;
 }
 
 .links-container .link-row .align-left {
   color: #56819f;
+  max-width: 369px;
+  width: 70%;
 }
 
 .links-container .link-row .link-icons {
@@ -953,44 +966,6 @@ template {
   fill: #f58220;
   margin-right: 23px;
   margin-left: -78px;
-}
-
-.links-container .link-row .home {
-  margin-left: 218px;
-  margin-right: 180px;
-}
-
-.links-container .link-row .currently {
-  margin-left: 185px;
-  margin-right: 180px;
-}
-
-.links-container .link-row .yoursite {
-  margin-left: 220px;
-  margin-right: 180px;
-}
-
-.links-container .link-row .google,
-.links-container .link-row .dashboard,
-.links-container .link-row .blurax,
-.links-container .link-row .blurpix {
-  margin-left: 225px;
-  margin-right: 180px;
-}
-
-.links-container .link-row .facebook {
-  margin-left: 224px;
-  margin-right: 180px;
-}
-
-.links-container .link-row .piece {
-  margin-left: 215px;
-  margin-right: 180px;
-}
-
-.links-container .link-row .twitter {
-  margin-left: 220px;
-  margin-right: 180px;
 }
 
 .links-container .link-row-twitter {
