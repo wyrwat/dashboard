@@ -112,19 +112,9 @@
             }
         }
     }
-
-    .menu-item:hover svg,
-    .menu-item:hover .menu-link {
-        fill: white;
-        color: white;
-    }
-
-    .menu-item:hover .sidebar-link:before {
-        background-color: #f58220; 
-    }
 }
 
-@media (max-width:764px) {
+@media(max-width:764px) {
     .menu {
 
         .horizontal-line {    
@@ -132,8 +122,20 @@
             height: 1px;
             background-color: $pharagraph-color;  
         }  
+    }  
+}
+
+@media(hover: hover) {
+    .menu-item:hover svg,
+    .menu-item:hover .menu-link {
+        fill: white;
+        color: white;
     }
-  
-       
+    
+    .menu-item:hover .sidebar-link:before {
+        background-color: #f58220; 
     }
+}
+
+
 

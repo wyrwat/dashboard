@@ -557,21 +557,22 @@ template {
   font-size: 14px;
 }
 
-.menu .menu-item:hover svg,
-.menu .menu-item:hover .menu-link {
-  fill: white;
-  color: white;
-}
-
-.menu .menu-item:hover .sidebar-link:before {
-  background-color: #f58220;
-}
-
 @media (max-width: 764px) {
   .menu .horizontal-line {
     width: 55px;
     height: 1px;
     background-color: #333333;
+  }
+}
+
+@media (hover: hover) {
+  .menu-item:hover svg,
+  .menu-item:hover .menu-link {
+    fill: white;
+    color: white;
+  }
+  .menu-item:hover .sidebar-link:before {
+    background-color: #f58220;
   }
 }
 
@@ -972,14 +973,15 @@ template {
   border-bottom: solid 1px #e3e3e3;
 }
 
-.links-container .link-row:hover {
-  background-color: #b1bfbf;
-  opacity: .99;
-}
-
-.links-container .link-row:hover .trash,
-.links-container .link-row:hover .link {
-  display: block;
+@media (hover: hover) {
+  .link-row:hover {
+    background-color: #b1bfbf;
+    opacity: .99;
+  }
+  .link-row:hover .trash,
+  .link-row:hover .link {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
