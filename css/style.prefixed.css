@@ -901,14 +901,15 @@ template {
 .chart .graph {
   -ms-flex-pack: center;
       justify-content: center;
+  display: block;
+  width: 100%;
+  overflow-x: auto;
 }
 
 .chart .graph img {
   margin-top: 11px;
   margin-bottom: 55px;
-  width: 100%;
-  max-width: 655px;
-  max-height: 345px;
+  width: auto;
 }
 
 .btn {
