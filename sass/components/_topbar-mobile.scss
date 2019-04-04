@@ -50,10 +50,9 @@
             }  
         }
 
-             
-            .exit {
-                svg {
-                    width: 19px;
+        .exit {
+             svg {
+                 width: 19px;
                 height: 15px;
                 fill: $menu-pharagraph;  
                 margin: {
@@ -61,11 +60,15 @@
                     right: 17px;
                     top: 9px;
                 }
-                }
-               
             }
+               
         }
-    
     }
+}
 
+@media (min-width:765px) {
+    .topbar-mobile {
+        display: none;
+    }
+}
 
