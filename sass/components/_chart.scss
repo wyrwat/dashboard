@@ -1,18 +1,22 @@
 .chart {
     flex-wrap: nowrap;
-    justify-content: center;
+    
     flex-direction: column;
-    h4 {
-        margin: {
-            left: 185px;
-            top: 62px;
+
+    .earning-chart {
+        justify-content: center;
+        h4 {
+            margin: {
+                
+                //left: 185px;
+                top: 62px;
+            }
         }
     }
+   
     .graph {
         justify-content: center;
-        
-            
-            width: 100%;
+            max-width: 100%;
             overflow-x: auto;
        
 
@@ -20,10 +24,12 @@
             margin: {
                 top: 11px;
                 bottom: 55px;
+                left: 15px;
+                right: 15px;
             }
-            width: auto;
-            //max-width: 655px;
-            //max-height: 345px;
+            width: 100%;
+            max-width: 655px;
+            max-height: 345px;
         }
     }
 

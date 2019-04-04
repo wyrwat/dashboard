@@ -6,8 +6,10 @@
     }
     .photo-container {
         align-items: center;
-        margin-top: -12px;
-
+        margin: {
+            top: -12px;
+            bottom: 29px;
+        }
         .online-photo {
            align-self: flex-start;
            margin-left: -10px;
