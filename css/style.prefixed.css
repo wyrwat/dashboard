@@ -635,6 +635,12 @@ template {
   max-width: 100%;
 }
 
+@media (max-width: 764px) {
+  .topbar {
+    display: none;
+  }
+}
+
 .wallet-container {
   -ms-flex-align: baseline;
       align-items: baseline;
@@ -901,7 +907,6 @@ template {
 .chart .graph {
   -ms-flex-pack: center;
       justify-content: center;
-  display: block;
   width: 100%;
   overflow-x: auto;
 }
@@ -979,13 +984,13 @@ template {
 .links-container .link-row h4 {
   margin-left: 17px;
   max-width: 317px;
-  width: 30%;
+  width: 40%;
 }
 
 .links-container .link-row .align-left {
   color: #56819f;
   max-width: 369px;
-  width: 70%;
+  width: 100%;
 }
 
 .links-container .link-row .link-icons {
