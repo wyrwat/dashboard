@@ -4,20 +4,19 @@
     h3 {
         letter-spacing: -0.28px;
     }
+
     .photo-container {
         align-items: center;
         margin: {
             top: -12px;
-            bottom: 29px;
+            bottom: 13px;
         }
         .online-photo {
            align-self: flex-start;
            margin-left: -10px;
         }
-
     }
 }
-
 
 @media (max-width:764px) {
     .your-manager-photo {
