@@ -9,6 +9,10 @@
    .logo-img {
        fill : $sidebar-background;
    }
-    
+}
 
+@media(max-width:764px) {
+    .logo {
+        margin-right: -20px;
+    }
 }

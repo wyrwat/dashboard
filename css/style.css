@@ -16,7 +16,6 @@ h3 {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 500;
-  line-height: 42px;
   text-transform: uppercase;
 }
 
@@ -29,10 +28,10 @@ h4 {
 }
 
 h5 {
-  color: #333333;
+  color: #a6a6a6;
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  font-weight: 300;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 p {
@@ -425,7 +424,6 @@ template {
   flex-direction: column;
   background-color: #191919;
   height: 100%;
-  width: 188px;
   top: 0;
 }
 
@@ -435,19 +433,19 @@ template {
 }
 
 @media (max-width: 764px) {
-  .sidebar {
-    width: 55px;
-  }
   .menu-disabled {
     display: none;
   }
   .vertical-line {
     width: 55px;
   }
+  .show {
+    display: block;
+  }
 }
 
 .nav-icon {
-  padding-right: 4px;
+  padding-right: 17px;
 }
 
 .nav-icon .hamburger .fa-bars {
@@ -459,7 +457,9 @@ template {
 @media (max-width: 764px) {
   .fa-bars {
     margin-left: 17px;
-    margin-top: 21px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    margin-right: 17px;
   }
 }
 
@@ -474,14 +474,17 @@ template {
   fill: #191919;
 }
 
-.menu .horizontal-line {
-  width: 188px;
-  height: 1px;
-  background-color: #333333;
+@media (max-width: 764px) {
+  .logo {
+    margin-right: -20px;
+  }
 }
 
-.menu .menu-item:hover {
-  background-color: #282828;
+.menu .horizontal-line {
+  max-width: 188px;
+  width: 100%;
+  height: 1px;
+  background-color: #333333;
 }
 
 .menu .menu-item .general svg {
@@ -534,7 +537,6 @@ template {
 }
 
 .menu .menu-item .sidebar-link {
-  line-height: 42px;
   height: 40px;
   flex-wrap: nowrap;
   align-items: center;
@@ -559,13 +561,16 @@ template {
 
 @media (max-width: 764px) {
   .menu .horizontal-line {
-    width: 55px;
+    width: 100%;
     height: 1px;
     background-color: #333333;
   }
 }
 
 @media (hover: hover) {
+  .menu-item:hover {
+    background-color: #282828;
+  }
   .menu-item:hover svg,
   .menu-item:hover .menu-link {
     fill: white;
@@ -587,6 +592,7 @@ template {
 .your-manager .photo-container {
   align-items: center;
   margin-top: -12px;
+  margin-bottom: 13px;
 }
 
 .your-manager .photo-container .online-photo {
@@ -604,6 +610,9 @@ template {
   .online-photo {
     width: 10px;
     height: 9px;
+    margin-top: 25px;
+  }
+  .manager-link {
     margin-top: 25px;
   }
 }
@@ -760,8 +769,11 @@ template {
 
 @media (max-width: 764px) {
   .section-container {
-    margin-left: 72px;
+    margin-left: 55px;
     width: 100%;
+  }
+  .general-statistics {
+    margin-top: -20px;
   }
 }
 
@@ -773,6 +785,12 @@ template {
   margin-left: 17px;
   margin-bottom: 3px;
   padding-top: 5px;
+}
+
+@media (max-width: 764px) {
+  .section-header h2 {
+    margin-left: 27px;
+  }
 }
 
 .date-period {
@@ -833,6 +851,7 @@ template {
   justify-content: space-between;
   max-width: 100%;
   width: 310px;
+  margin-left: auto;
 }
 
 .table-container .column-1 .row .table-pharagraph p {
@@ -863,27 +882,39 @@ template {
   margin-bottom: -8px;
 }
 
+@media (max-width: 764px) {
+  h4 {
+    margin-left: 17px;
+  }
+}
+
 .chart {
   flex-wrap: nowrap;
-  justify-content: center;
   flex-direction: column;
 }
 
-.chart h4 {
-  margin-left: 185px;
+.chart .earning-chart {
+  justify-content: center;
+}
+
+.chart .earning-chart h4 {
   margin-top: 62px;
 }
 
 .chart .graph {
   justify-content: center;
-  width: 100%;
+  max-width: 100%;
   overflow-x: auto;
 }
 
 .chart .graph img {
   margin-top: 11px;
   margin-bottom: 55px;
+  margin-left: 15px;
+  margin-right: 15px;
   width: auto;
+  max-width: 655px;
+  max-height: 345px;
 }
 
 .btn {
@@ -892,6 +923,7 @@ template {
   border: none;
   justify-content: center;
   align-content: center;
+  cursor: pointer;
 }
 
 .btn-date {
@@ -915,6 +947,12 @@ template {
   font-weight: 300;
 }
 
+@media (hover: hover) {
+  .btn:hover {
+    background-color: #ffa200;
+  }
+}
+
 .button-container {
   justify-content: center;
 }
@@ -933,16 +971,22 @@ template {
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  /*.link-row:hover .trash,
+    .link-row:hover .link {
+        display: block;
+    }*/
 }
 
 .links-container .link-row {
   border-top: solid 1px #e3e3e3;
   align-items: center;
   height: 59px;
-  justify-content: space-around;
+  justify-content: center;
+  max-width: 686px;
+  width: 100%;
 }
 
-.links-container .link-row h4 {
+.links-container .link-row h5 {
   margin-left: 17px;
   max-width: 317px;
   width: 40%;
@@ -951,7 +995,7 @@ template {
 .links-container .link-row .align-left {
   color: #56819f;
   max-width: 369px;
-  width: 100%;
+  width: 90%;
 }
 
 .links-container .link-row .link-icons {
@@ -959,10 +1003,10 @@ template {
 }
 
 .links-container .link-row .link-icons .trash {
+  display: none;
   width: 14px;
   height: 15px;
   fill: #9c9c9c;
-  display: none;
   margin-right: 25px;
 }
 
@@ -987,6 +1031,57 @@ template {
   .link-row:hover .trash,
   .link-row:hover .link {
     display: block;
+  }
+}
+
+.topbar-mobile {
+  margin-top: 20px;
+}
+
+.topbar-mobile .menu-item .wallet svg {
+  width: 17px;
+  height: 18px;
+  margin-left: 18px;
+  margin-right: 13px;
+}
+
+.topbar-mobile .menu-item .profile svg {
+  width: 17px;
+  height: 17px;
+  fill: #9c9c9c;
+  margin-left: 17px;
+  margin-right: 14px;
+}
+
+.topbar-mobile .menu-item .notification svg {
+  width: 16px;
+  height: 17px;
+  fill: #9c9c9c;
+  margin-top: 9px;
+  margin-left: 21px;
+  margin-right: 14px;
+}
+
+.topbar-mobile .menu-item .indicator {
+  border-radius: 50%;
+  width: 9px;
+  height: 8px;
+  margin-top: 7px;
+  margin-left: -25px;
+}
+
+.topbar-mobile .menu-item .exit svg {
+  width: 19px;
+  height: 15px;
+  fill: #9c9c9c;
+  margin-left: 22px;
+  margin-right: 17px;
+  margin-top: 9px;
+}
+
+@media (min-width: 765px) {
+  .topbar-mobile {
+    display: none;
   }
 }
 

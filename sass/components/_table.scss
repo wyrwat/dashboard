@@ -11,9 +11,9 @@
             justify-content: space-between;
             max-width: 100%;
             width: 310px;
+            margin-left: auto;
 
             .table-pharagraph {
-                
                 p { 
                     margin-bottom: -8px;
                 }
@@ -37,6 +37,7 @@
             border-bottom: solid 2px $borders;
             max-width: 100%;
             width: 310px;
+            
             p {
                 //margin-left: 199px;
                 margin-bottom: -8px;
@@ -47,5 +48,11 @@
             }
         }
 
+    }
+}
+
+@media(max-width:764px) {
+    h4 {
+        margin-left: 17px;
     }
 }

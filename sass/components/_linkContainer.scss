@@ -1,7 +1,6 @@
 .links-container {
     flex-direction: column;
     justify-content: center;
-    //flex-flow: column wrap;
     align-content: center;
     //display: inline-flex;
 
@@ -9,14 +8,16 @@
         border-top: solid 1px $borders;
         align-items: center;
         height: 59px;
-        justify-content: space-around;
+        justify-content: center;
+        max-width: 686px;
+        width: 100%;
+        //margin-right: 186px;
+        //margin-left: 184px;
         
-
         h5 {
             margin-left: 17px;
             max-width: 317px;
             width: 40%;
-
         }
 
         .align-left {
@@ -29,10 +30,10 @@
             align-items: center;
 
             .trash {
+                display: none;
                 width: 14px;
                 height: 15px;
                 fill: $menu-pharagraph; 
-                display: none;
                 margin-right: 25px;
             }
 
@@ -47,22 +48,24 @@
                 }
             }
         }
-       
     }
 
     .link-row-twitter {
         border-bottom: solid 1px $borders;
     }
 
+    /*.link-row:hover .trash,
+    .link-row:hover .link {
+        display: block;
+    }*/
 }
 
-@media(hover: hover) {
+@media(hover:hover) {
 
     .link-row:hover {
         background-color: $links-hover;
         opacity: .99;
     }
-
     .link-row:hover .trash,
     .link-row:hover .link {
         display: block;

@@ -1,15 +1,15 @@
 
 
-/*
-function screen(size) {
-    if(size.matches) {
-        var element = document.getElementsById("menu-toggle");
-        element.classList.toggle("menu-disabled");
-    }
-}
+function toggleMenu(visible) {
+   var elements = document.querySelectorAll('.menu-disabled');
+   for (var i = 0; i < elements.length; i++) {
+       elements[i].classList.toggle('show', visible);
+   }
+   
 
-var size = window.matchMedia("(max-width: 425px)");
+  }
 
-screen(size);
-size.addListener(screen);
-*/
+  document.querySelector('.hamburger').addEventListener('click', function(e) {
+    e.preventDefault();
+    toggleMenu()
+  });
