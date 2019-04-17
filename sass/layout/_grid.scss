@@ -6,3 +6,27 @@
     box-sizing: border-box;
   }
   
+body {
+    background-color: #f2f2ef;
+    //overflow: hidden;
+    margin: 0 auto;
+
+    .page-content {
+        overflow-y: auto;
+        flex: 1 1 auto;
+    }
+}  
+
+.container {
+    //max-width: 1280px;
+    //width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
