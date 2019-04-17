@@ -1,19 +1,24 @@
+.section-container-links {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
 
-    .button-container {
-        justify-content: center;
+.button-container {
+    justify-content: center;
 
-        .btn-add-1 {
-            margin: {
-                top: 23px;
-                bottom: 23px;
-            } 
-        }
+    .btn-add-1 {
+        margin: {
+            top: 23px;
+            bottom: 23px;
+        } 
+    }
 
-        .btn-add-2 {
-            margin : {
-                top: 23px;
-                bottom: 26px;
-            }
+    .btn-add-2 {
+         margin : {
+            top: 23px;
+            bottom: 26px;
         }
     }
+}
    

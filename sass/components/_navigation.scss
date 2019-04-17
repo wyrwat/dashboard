@@ -1,17 +1,13 @@
 .menu {
     
-    .vertical-line {    
-        width: 188px;
+    .horizontal-line {    
+        max-width: 188px;
+        width: 100%;
         height: 1px;
         background-color: $pharagraph-color;  
     }
 
     .menu-item {
-      
-        &:hover {
-            background-color: $sidebar-hover;  
-        }
-
         .general {
             svg {
              width: 16px;
@@ -90,7 +86,6 @@
         }
 
         .sidebar-link {
-            line-height: 42px;
             height: 40px;
             flex-wrap: nowrap;
             align-items: center;
@@ -112,14 +107,33 @@
             }
         }
     }
+}
 
+@media(max-width:764px) {
+    .menu {
+
+        .horizontal-line {    
+            width: 100%;
+            height: 1px;
+            background-color: $pharagraph-color;  
+        }  
+    }  
+}
+
+@media(hover: hover) {
+    .menu-item:hover {
+        background-color: $sidebar-hover;  
+    }
     .menu-item:hover svg,
     .menu-item:hover .menu-link {
         fill: white;
         color: white;
     }
-
+    
     .menu-item:hover .sidebar-link:before {
         background-color: #f58220; 
     }
 }
+
+
+

@@ -1,9 +1,18 @@
 .topbar {
    background-color: $main-background;
-   flex: 0 0 auto;
+   position: fixed;
+   width: 100%;
+   top: 0;
     .topbar-container {
         justify-content: flex-end;
         border-bottom: solid 2px $borders;
-        width: 100%;
+        max-width: 100%;
+    }
+    
+}
+
+@media(max-width:764px) {
+    .topbar {
+        display: none;
     }
 }

@@ -1,5 +1,7 @@
-
     
+    .general-statistics {
+        margin-top: 70px;
+    }
 
     .section-container {
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -9,7 +11,15 @@
             right: 18px; 
             left: 206px;
         }
-        
-        
     }
 
+    @media (max-width:764px) {
+        .section-container {
+            margin-left: 55px;
+            width: 100%;
+        }
+
+        .general-statistics {
+            margin-top: -20px;
+        }
+    }
