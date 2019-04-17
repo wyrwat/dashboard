@@ -1,12 +1,10 @@
 .table-container {
     flex-wrap: wrap;
     justify-content: space-evenly;
+
     .column-1 {
         flex-direction: column;
-        margin: {
-            //left: 184px;
-            //right: 67px;
-        }
+
         .row {
             align-items: center;
             border-bottom: solid 2px $borders;
@@ -33,7 +31,6 @@
     .column-2 {
         flex-direction: column;
         
-
         .row {
             align-items:center;
             justify-content: space-between;

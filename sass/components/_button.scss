@@ -2,17 +2,27 @@
     background-color: $elemnt-background;
     border-radius: 3px;
     border: none;
+    justify-content: center;
+    align-content: center;  
 }
 
 .btn-date {
     width: 41px;
     height: 41px;
     margin-top: -3px;
-    justify-content: center;
-    align-content: center;    
+       
         svg {
             width: 15px;
             height: 15px;
             fill: $main-background;
         }
+}
+
+.btn-add {
+    width: 127px;
+    height: 40px;
+    color: $main-background;
+    font-family: $main-font;
+    font-size: 18px;
+    font-weight: 300;  
 }

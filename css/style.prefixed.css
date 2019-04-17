@@ -702,7 +702,7 @@ template {
   font-size: 14px;
 }
 
-.general-statistics .general-statistics-container {
+.section-container {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
   margin-top: 17px;
@@ -710,11 +710,11 @@ template {
   margin-left: 206px;
 }
 
-.general-statistics-header {
+.section-header {
   border-bottom: solid 2px #e3e3e3;
 }
 
-.general-statistics-header h2 {
+.section-header h2 {
   margin-left: 17px;
   margin-bottom: 3px;
   padding-top: 5px;
@@ -843,21 +843,147 @@ template {
   background-color: #f58220;
   border-radius: 3px;
   border: none;
-}
-
-.btn-date {
-  width: 41px;
-  height: 41px;
-  margin-top: -3px;
   -ms-flex-pack: center;
       justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
 }
 
+.btn-date {
+  width: 41px;
+  height: 41px;
+  margin-top: -3px;
+}
+
 .btn-date svg {
   width: 15px;
   height: 15px;
   fill: #ffffff;
+}
+
+.btn-add {
+  width: 127px;
+  height: 40px;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.button-container {
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.button-container .btn-add-1 {
+  margin-top: 23px;
+  margin-bottom: 23px;
+}
+
+.button-container .btn-add-2 {
+  margin-top: 23px;
+  margin-bottom: 26px;
+}
+
+.links-container {
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-flow: column wrap;
+      flex-flow: column wrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.links-container .link-row {
+  border-top: solid 1px #e3e3e3;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 59px;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+.links-container .link-row h4 {
+  margin-left: 17px;
+}
+
+.links-container .link-row .align-left {
+  color: #56819f;
+}
+
+.links-container .link-row .link-icons {
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.links-container .link-row .link-icons .trash {
+  width: 14px;
+  height: 15px;
+  fill: #9c9c9c;
+  display: none;
+  margin-right: 25px;
+}
+
+.links-container .link-row .link-icons .link {
+  display: none;
+  width: 16px;
+  height: 8px;
+  fill: #f58220;
+  margin-right: 23px;
+  margin-left: -78px;
+}
+
+.links-container .link-row .home {
+  margin-left: 218px;
+  margin-right: 180px;
+}
+
+.links-container .link-row .currently {
+  margin-left: 185px;
+  margin-right: 180px;
+}
+
+.links-container .link-row .yoursite {
+  margin-left: 220px;
+  margin-right: 180px;
+}
+
+.links-container .link-row .google,
+.links-container .link-row .dashboard,
+.links-container .link-row .blurax,
+.links-container .link-row .blurpix {
+  margin-left: 225px;
+  margin-right: 180px;
+}
+
+.links-container .link-row .facebook {
+  margin-left: 224px;
+  margin-right: 180px;
+}
+
+.links-container .link-row .piece {
+  margin-left: 215px;
+  margin-right: 180px;
+}
+
+.links-container .link-row .twitter {
+  margin-left: 220px;
+  margin-right: 180px;
+}
+
+.links-container .link-row-twitter {
+  border-bottom: solid 1px #e3e3e3;
+}
+
+.links-container .link-row:hover {
+  background-color: #b1bfbf;
+  opacity: .99;
+}
+
+.links-container .link-row:hover .trash,
+.links-container .link-row:hover .link {
+  display: block;
 }
 /*# sourceMappingURL=style.prefixed.css.map */
