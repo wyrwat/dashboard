@@ -15,9 +15,9 @@
     }
    
     .graph {
-        justify-content: center;
-            max-width: 100%;
-            overflow-x: auto;
+        //justify-content: center;
+        //max-width: 100%;
+        overflow-x: auto;
        
         img {
             margin: {
@@ -26,7 +26,7 @@
                 left: 15px;
                 right: 15px;
             }
-            width: auto;//?
+            width: 100%;//?
             max-width: 655px;
             max-height: 345px;
         }
