@@ -918,8 +918,6 @@ template {
 .chart {
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  -ms-flex-direction: column;
-      flex-direction: column;
 }
 
 .chart .earning-chart {
@@ -931,11 +929,12 @@ template {
   margin-top: 62px;
 }
 
-.chart .graph {
-  overflow-x: auto;
+.graph {
+  -ms-flex-pack: center;
+      justify-content: center;
 }
 
-.chart .graph img {
+.graph img {
   margin-top: 11px;
   margin-bottom: 55px;
   margin-left: 15px;
@@ -943,6 +942,17 @@ template {
   width: 100%;
   max-width: 655px;
   max-height: 345px;
+}
+
+@media (max-width: 764px) {
+  .graph {
+    display: block;
+    overflow-x: auto;
+  }
+  .earning-chart {
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
 }
 
 .btn {

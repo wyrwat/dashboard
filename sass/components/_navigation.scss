@@ -1,5 +1,4 @@
 .menu {
-    
     .horizontal-line {    
         max-width: 188px;
         width: 100%;
@@ -121,6 +120,7 @@
 }
 
 @media(hover: hover) {
+    
     .menu-item:hover {
         background-color: $sidebar-hover;  
     }

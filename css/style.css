@@ -890,7 +890,6 @@ template {
 
 .chart {
   flex-wrap: nowrap;
-  flex-direction: column;
 }
 
 .chart .earning-chart {
@@ -901,11 +900,11 @@ template {
   margin-top: 62px;
 }
 
-.chart .graph {
-  overflow-x: auto;
+.graph {
+  justify-content: center;
 }
 
-.chart .graph img {
+.graph img {
   margin-top: 11px;
   margin-bottom: 55px;
   margin-left: 15px;
@@ -913,6 +912,16 @@ template {
   width: 100%;
   max-width: 655px;
   max-height: 345px;
+}
+
+@media (max-width: 764px) {
+  .graph {
+    display: block;
+    overflow-x: auto;
+  }
+  .earning-chart {
+    justify-content: center;
+  }
 }
 
 .btn {

@@ -1,23 +1,20 @@
 .chart {
     flex-wrap: nowrap;
-    flex-direction: column;
+    //flex-direction: column;
 
     .earning-chart {
         justify-content: center;
 
         h4 {
             margin: {
-                
-                //left: 185px;
                 top: 62px;
             }
         }
     }
-   
-    .graph {
-        //justify-content: center;
-        //max-width: 100%;
-        overflow-x: auto;
+}
+
+.graph {
+        justify-content: center;
        
         img {
             margin: {
@@ -26,11 +23,20 @@
                 left: 15px;
                 right: 15px;
             }
-            width: 100%;//?
+            width: 100%;
             max-width: 655px;
             max-height: 345px;
         }
     }
 
-   
+@media(max-width:764px) {
+    .graph {
+        display: block;
+        overflow-x: auto;
+    }
+
+    .earning-chart {
+        justify-content: center;
+
+    }
 }

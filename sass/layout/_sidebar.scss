@@ -4,14 +4,13 @@
     flex-direction: column;
     background-color: $sidebar-background;
     height: 100%;
-    //width: 188px;
+    
     top: 0;
 
     .logo-container {
         align-items: center;
         flex-wrap: nowrap;
     }
-    
 }
 
 @media (max-width:764px) {
