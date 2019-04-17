@@ -960,66 +960,59 @@ template {
   }
 }
 
-.section-container-links {
-  flex-wrap: wrap;
+.links-column {
   flex-direction: column;
-  align-items: center;
 }
 
-.button-container {
+.links-column .button-container {
   justify-content: center;
 }
 
-.button-container .btn-add-1 {
+.links-column .button-container .btn-add-1 {
   margin-top: 23px;
   margin-bottom: 23px;
 }
 
-.button-container .btn-add-2 {
+.links-column .button-container .btn-add-2 {
   margin-top: 23px;
   margin-bottom: 26px;
 }
 
-.link-column {
-  flex-direction: column;
-}
-
-.link-column .links-container {
+.links-column .links-container {
   flex-direction: column;
   justify-content: center;
-  align-content: center;
+  max-width: 686px;
+  width: 100%;
   /*.link-row:hover .trash,
         .link-row:hover .link {
             display: block;
         }*/
 }
 
-.link-column .links-container .link-row {
+.links-column .links-container .link-row {
   border-top: solid 1px #e3e3e3;
+  justify-content: center;
   align-items: center;
   height: 59px;
-  justify-content: center;
-  max-width: 686px;
-  width: 100%;
 }
 
-.link-column .links-container .link-row h5 {
+.links-column .links-container .link-row h5 {
   margin-left: 17px;
   max-width: 317px;
   width: 40%;
 }
 
-.link-column .links-container .link-row .align-left {
+.links-column .links-container .link-row .align-left {
   color: #56819f;
   max-width: 369px;
   width: 90%;
 }
 
-.link-column .links-container .link-row .link-icons {
+.links-column .links-container .link-row .link-icons {
   align-items: center;
 }
 
-.link-column .links-container .link-row .link-icons .trash {
+.links-column .links-container .link-row .link-icons .trash {
   display: none;
   width: 14px;
   height: 15px;
@@ -1027,7 +1020,7 @@ template {
   margin-right: 25px;
 }
 
-.link-column .links-container .link-row .link-icons .link {
+.links-column .links-container .link-row .link-icons .link {
   display: none;
   width: 16px;
   height: 8px;
@@ -1036,7 +1029,7 @@ template {
   margin-left: -78px;
 }
 
-.link-column .links-container .link-row-twitter {
+.links-column .links-container .link-row-twitter {
   border-bottom: solid 1px #e3e3e3;
 }
 
