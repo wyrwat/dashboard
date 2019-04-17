@@ -1,0 +1,14 @@
+.exit-container {
+    align-items: center;
+    margin-top: -3px;
+
+    .exit {
+        width: 19px;
+        height: 15px;
+        fill: $menu-pharagraph;  
+        margin: {
+            left: 21px;
+            right: 17px;
+        }
+    }
+}

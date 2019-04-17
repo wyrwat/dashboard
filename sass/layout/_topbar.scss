@@ -1,0 +1,9 @@
+.topbar {
+   //position: fixed;
+ 
+
+    .topbar-container {
+        justify-content: flex-end;
+        border-bottom: solid 2px $borders;
+    }
+}

@@ -1,0 +1,27 @@
+.wallet-container {
+    align-items: baseline;
+    margin-top: -3px;
+    
+    .wallet {
+        width: 17px;
+        height: 18px;
+        fill: $menu-pharagraph;
+        margin: {
+            left: 18px;
+            right: 16px;
+            }
+    }
+    
+    .arrow-down {
+    width: 11px;
+    height: 7px;
+    fill: $menu-pharagraph;
+    margin-right: 16px;
+    }
+
+    .money {
+        font-size: $menu-font-size-1;
+        color: $menu-pharagraph;
+        margin-right: 20px;
+    }
+}

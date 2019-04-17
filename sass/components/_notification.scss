@@ -1,0 +1,22 @@
+.notification-container {
+    align-items: center;
+    margin-top: -3px;
+
+    .notification {
+        width: 16px;
+        height: 17px;
+        fill: $menu-pharagraph;
+        margin: {
+            left: 21px;
+           
+        }
+    }
+
+    .indicator {
+        margin: {
+            top: -12px; 
+            left: -8px;
+            right: 19px;
+        }  
+    }
+}
