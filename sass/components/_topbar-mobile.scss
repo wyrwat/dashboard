@@ -1,8 +1,9 @@
 
 .topbar-mobile {
     margin-top: 20px;
+    
     .menu-item {
-       
+    
         .wallet {
             svg {
                 width: 17px;
@@ -32,32 +33,33 @@
                 height: 17px;
                 fill: $menu-pharagraph;
                 margin: {
-                    top: 9px;
-                    left: 21px;
+                    left: 17px;
                     right: 14px;
                 }
             }
+
+            .indicator {
+                border-radius: 50%;
+                width: 9px;
+                height: 8px;
+                align-self: flex-start;
+                margin: {
+                    top: 9px; 
+                    left: -22px;
+                    right: 13px;
+                }  
+            }
         }
     
-        .indicator {
-            border-radius: 50%;
-            width: 9px;
-            height: 8px;
-            margin: {
-                top: 7px; 
-                left: -25px;  
-            }  
-        }
 
         .exit {
              svg {
-                 width: 19px;
+                width: 19px;
                 height: 15px;
                 fill: $menu-pharagraph;  
                 margin: {
-                    left: 22px;
-                    right: 17px;
-                    top: 9px;
+                    left: 18px;
+                    right: 10px;
                 }
             }     
         }
