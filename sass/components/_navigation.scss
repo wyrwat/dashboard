@@ -119,7 +119,7 @@
     }  
 }
 
-@media(hover: hover) {
+@media not all and (hover: none) {
     
     .menu-item:hover {
         background-color: $sidebar-hover;  

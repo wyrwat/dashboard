@@ -574,7 +574,7 @@ template {
   }
 }
 
-@media (hover: hover) {
+@media not all and (hover: none) {
   .menu-item:hover {
     background-color: #282828;
   }
@@ -752,7 +752,7 @@ template {
   font-weight: 300;
 }
 
-@media (hover: hover) {
+@media not all and (hover: none) {
   .link:hover {
     color: #ffa220;
   }
@@ -987,7 +987,7 @@ template {
   font-weight: 300;
 }
 
-@media (hover: hover) {
+@media not all and (hover: none) {
   .btn:hover {
     background-color: #ffa200;
   }
@@ -996,6 +996,7 @@ template {
 .links-column {
   -ms-flex-direction: column;
       flex-direction: column;
+  margin: 0 auto;
 }
 
 .links-column .button-container {
@@ -1018,6 +1019,7 @@ template {
       flex-direction: column;
   -ms-flex-pack: center;
       justify-content: center;
+  margin: 0 auto;
   max-width: 686px;
   width: 100%;
   /*.link-row:hover .trash,

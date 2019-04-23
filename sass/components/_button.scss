@@ -29,7 +29,7 @@
 }
 
 
-@media (hover:hover) {
+@media not all and (hover: none) {
     .btn:hover {
         background-color: #ffa200;
     }

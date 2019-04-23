@@ -1,5 +1,7 @@
 .links-column {
     flex-direction: column;
+    margin: 0 auto;
+    
     .button-container {
         justify-content: center;
     
@@ -21,7 +23,7 @@
     .links-container {
         flex-direction: column;
         justify-content: center;
-        //align-content: center;
+        margin: 0 auto;
         max-width: 686px;
         width: 100%;
     
@@ -82,7 +84,7 @@
 
 
 
-@media not all and (hover:none) {
+@media not all and (hover: none) {
 
     .link-row:hover {
         background-color: $links-hover;
