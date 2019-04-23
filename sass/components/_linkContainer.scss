@@ -1,5 +1,7 @@
 .links-column {
     flex-direction: column;
+    margin: 0 auto;
+
     .button-container {
         justify-content: center;
     
@@ -19,6 +21,7 @@
     }
 
     .links-container {
+        margin: 0 auto;
         flex-direction: column;
         justify-content: center;
         //align-content: center;
