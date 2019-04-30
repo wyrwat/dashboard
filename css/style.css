@@ -1283,8 +1283,7 @@ template {
   flex-wrap: wrap;
 }
 
-.form-container .form-content .field input[type=text],
-.form-container .form-content .field input[type=email] {
+.form-container .form-content .field input {
   margin-bottom: 15px;
   padding: 14px 17px;
   width: 309px;
