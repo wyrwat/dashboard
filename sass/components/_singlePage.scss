@@ -1,0 +1,11 @@
+.single-page {
+    margin-top: 80px;
+    
+}
+
+@media (max-width:764px) {
+    .single-page {
+        margin-top: 5px;
+        margin-right: 35px;
+    }
+}

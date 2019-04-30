@@ -34,3 +34,12 @@
         background-color: #ffa200;
     }
 }
+
+@media (max-width:764px) {
+    .btn-date {
+        margin: {
+            left: -5px;
+            right: 5px;
+        }
+    }
+}

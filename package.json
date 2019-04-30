@@ -18,7 +18,7 @@
     "watch": "npm-run-all build -p watch:*",
     "watch:sass": "node-sass --output-style expanded --source-map true -o css sass --watch",
     "watch:autoprefixer": "onchange -d 100 css/style.css -- autoprefixer-cli -o css/style.prefixed.css css/style.css",
-    "watch:browsersync": "node_modules/.bin/browser-sync start --server --files css/*.css *.html"
+    "watch:browsersync": "node_modules/.bin/browser-sync start --server --index payout.html --files css/*.css *.html"
   },
   "keywords": [],
   "author": "",

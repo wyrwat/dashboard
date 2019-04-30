@@ -31,7 +31,12 @@ h5 {
   color: #a6a6a6;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  font-weight: 700;
+}
+
+h6 {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
 }
 
 p {
@@ -769,6 +774,19 @@ template {
   font-size: 14px;
 }
 
+.page-link {
+  color: #56819f;
+  font-weight: 300;
+}
+
+@media not all and (hover: none) {
+  .page-link:hover {
+    color: #a6a6a6;
+    font-family: "Roboto";
+    font-weight: 700;
+  }
+}
+
 .general-statistics {
   margin-top: 70px;
 }
@@ -783,7 +801,7 @@ template {
 
 @media (max-width: 764px) {
   .section-container {
-    margin-left: 55px;
+    margin-left: 60px;
     width: 100%;
   }
   .general-statistics {
@@ -848,7 +866,8 @@ template {
 
 @media (max-width: 764px) {
   .date-border {
-    margin-left: 17px;
+    margin-left: 8px;
+    margin-right: -8px;
   }
   .date-border .date-end {
     margin-right: -46px;
@@ -993,6 +1012,13 @@ template {
   }
 }
 
+@media (max-width: 764px) {
+  .btn-date {
+    margin-left: -5px;
+    margin-right: 5px;
+  }
+}
+
 .links-column {
   -ms-flex-direction: column;
       flex-direction: column;
@@ -1015,11 +1041,11 @@ template {
 }
 
 .links-column .links-container {
+  margin: 0 auto;
   -ms-flex-direction: column;
       flex-direction: column;
   -ms-flex-pack: center;
       justify-content: center;
-  margin: 0 auto;
   max-width: 686px;
   width: 100%;
   /*.link-row:hover .trash,
@@ -1088,6 +1114,7 @@ template {
 
 .topbar-mobile {
   margin-top: 20px;
+  width: 55px;
 }
 
 .topbar-mobile .menu-item .wallet svg {
@@ -1136,5 +1163,100 @@ template {
   .topbar-mobile {
     display: none;
   }
+}
+
+.single-page {
+  margin-top: 80px;
+}
+
+@media (max-width: 764px) {
+  .single-page {
+    margin-top: 5px;
+    margin-right: 35px;
+  }
+}
+
+.payout-table {
+  margin: 14px auto 0 auto;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  max-width: 1021px;
+  width: 100%;
+}
+
+.payout-table .payout-table-row {
+  -ms-flex-pack: center;
+      justify-content: center;
+  border-bottom: solid 1px #e3e3e3;
+  height: 59px;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.payout-table .payout-table-row .table-header {
+  font-weight: 700;
+  color: #a6a6a6;
+  cursor: pointer;
+}
+
+.payout-table .payout-table-row .date {
+  max-width: 323px;
+  width: 80%;
+  margin-left: 17px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.payout-table .payout-table-row .date .header-wraper {
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.payout-table .payout-table-row .date .header-wraper .arrow {
+  width: 7px;
+  height: 5px;
+  margin-left: 14px;
+}
+
+.payout-table .payout-table-row .amount {
+  max-width: 318px;
+  width: 100%;
+}
+
+.payout-table .payout-table-row .deal {
+  max-width: 253px;
+  width: 100%;
+}
+
+.payout-table .payout-table-row .account {
+  max-width: 137px;
+  width: 100%;
+}
+
+@media not all and (hover: none) {
+  .row-hover:hover {
+    background-color: #b1bfbf;
+    opacity: .9;
+    cursor: pointer;
+  }
+}
+
+.page-counter {
+  margin: 0 auto;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  max-width: 400px;
+  width: 100%;
+  /*.first-page {
+        width: 40px;
+        height: 41px;
+        background-color: #f1f3f3; 
+    }*/
+}
+
+.page-counter a {
+  color: #56819f;
+  margin-top: 36px;
+  margin-bottom: 38px;
 }
 /*# sourceMappingURL=style.prefixed.css.map */
