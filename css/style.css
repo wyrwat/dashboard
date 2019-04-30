@@ -973,6 +973,13 @@ template {
   font-weight: 300;
 }
 
+.btn-save {
+  width: 95px;
+  height: 40px;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
 @media not all and (hover: none) {
   .btn:hover {
     background-color: #ffa200;
@@ -1133,7 +1140,7 @@ template {
 
 @media (max-width: 764px) {
   .single-page {
-    margin-top: 5px;
+    margin-top: -15px;
     margin-right: 35px;
   }
 }
@@ -1253,6 +1260,55 @@ template {
 
 .dumy-div {
   height: 23px;
+}
+
+.form-container {
+  margin-top: 40px;
+  flex-direction: column;
+  border-bottom: solid 1px #e3e3e3;
+}
+
+.form-container .form-content {
+  justify-content: center;
+  align-content: center;
+  margin-left: 5px;
+}
+
+.form-container .form-content .margin-bottom {
+  margin-bottom: 26px;
+}
+
+.form-container .form-content .field {
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.form-container .form-content .field input[type=text],
+.form-container .form-content .field input[type=email] {
+  margin-bottom: 15px;
+  padding: 14px 17px;
+  width: 309px;
+  height: 40px;
+  border-radius: 3px;
+  border: 1px solid #e3e3e3;
+  color: #333333;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.form-container .form-content .field label {
+  width: 145px;
+  color: #a6a6a6;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.form-button {
+  justify-content: center;
+  margin-top: 31px;
+  padding-bottom: 35px;
 }
 
 /*# sourceMappingURL=style.css.map */

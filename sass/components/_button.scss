@@ -28,7 +28,12 @@
     font-weight: 300;  
 }
 
-
+.btn-save {
+    width: 95px;
+    height: 40px;
+    color: $main-background;
+    font-family: $main-font;
+}
 @media not all and (hover: none) {
     .btn:hover {
         background-color: #ffa200;
