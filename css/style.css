@@ -1084,8 +1084,12 @@ template {
   margin-right: 13px;
 }
 
+.topbar-mobile .menu-item .profile {
+  flex-wrap: nowrap;
+}
+
 .topbar-mobile .menu-item .profile svg {
-  width: 17px;
+  width: 30px;
   height: 17px;
   fill: #9c9c9c;
   margin-left: 17px;
@@ -1224,19 +1228,32 @@ template {
 .page-counter {
   margin: 0 auto;
   justify-content: space-between;
+  align-items: center;
   max-width: 400px;
   width: 100%;
-  /*.first-page {
-        width: 40px;
-        height: 41px;
-        background-color: #f1f3f3; 
-    }*/
+  margin-top: 36px;
 }
 
 .page-counter a {
   color: #56819f;
-  margin-top: 36px;
-  margin-bottom: 38px;
+}
+
+.page-counter .page-counter-wraper {
+  justify-content: center;
+  align-content: center;
+}
+
+.page-counter .page-counter-wraper .counter-background {
+  justify-content: center;
+  align-items: center;
+  width: 41px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: #f1f3f3;
+}
+
+.dumy-div {
+  height: 23px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -2,6 +2,7 @@
 .topbar-mobile {
     margin-top: 20px;
     width: 55px;
+
     .menu-item {
     
         .wallet {
@@ -16,8 +17,9 @@
             }  
 
         .profile {
+            flex-wrap: nowrap;
             svg {
-                width: 17px;
+                width: 30px;
                 height: 17px;
                 fill: $menu-pharagraph;
                 margin: {
