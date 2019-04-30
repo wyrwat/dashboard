@@ -1074,7 +1074,6 @@ template {
 
 .topbar-mobile {
   margin-top: 20px;
-  width: 55px;
 }
 
 .topbar-mobile .menu-item .wallet svg {
@@ -1084,12 +1083,8 @@ template {
   margin-right: 13px;
 }
 
-.topbar-mobile .menu-item .profile {
-  flex-wrap: nowrap;
-}
-
 .topbar-mobile .menu-item .profile svg {
-  width: 30px;
+  width: 17px;
   height: 17px;
   fill: #9c9c9c;
   margin-left: 17px;

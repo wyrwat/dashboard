@@ -1,7 +1,7 @@
 
 .topbar-mobile {
     margin-top: 20px;
-    width: 55px;
+    //width: 55px;
 
     .menu-item {
     
@@ -17,9 +17,8 @@
             }  
 
         .profile {
-            flex-wrap: nowrap;
             svg {
-                width: 30px;
+                width: 17px;
                 height: 17px;
                 fill: $menu-pharagraph;
                 margin: {
@@ -53,7 +52,6 @@
             }
         }
     
-
         .exit {
              svg {
                 width: 19px;
@@ -72,5 +70,7 @@
     .topbar-mobile {
         display: none;
     }
+
+
 }
 
