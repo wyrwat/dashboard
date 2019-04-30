@@ -774,7 +774,7 @@ template {
 }
 
 .general-statistics {
-  margin-top: 70px;
+  margin-top: 80px;
 }
 
 .section-container {
@@ -984,6 +984,10 @@ template {
     margin-left: -5px;
     margin-right: 5px;
   }
+}
+
+.links-container {
+  margin-top: 80px;
 }
 
 .links-column {
